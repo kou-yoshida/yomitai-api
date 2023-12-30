@@ -7,6 +7,7 @@ const api = express();
 
 const router = Router();
 router.get("/hello", (req, res) => res.send("Hello World!"));
+router.get("/test", (req, res) => res.send("Test!"));
 
 api.use("/api/", router);
 
