@@ -2,7 +2,8 @@
   "scripts": {
     "netlify": "netlify",
     "netlify:connect": "netlify init",
-    "netlify:disconnect": "netlify unlink"
+    "netlify:disconnect": "netlify unlink",
+    "start": "netlify dev"
   },
   "dependencies": {
     "@netlify/functions": "^2.4.1",
